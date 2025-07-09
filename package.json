@@ -21,13 +21,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github.com/taotao7/neoseoul-theme"
+    "url": "https://github.com/taotao7/neoseoul-theme.git"
   },
   "icon": "icon.jpeg",
   "scripts": {
     "package": "vsce package",
     "publish": "vsce publish",
-    "install": "code --install-extension neo-seoul-theme-0.0.1.vsix",
+    "install": "code --install-extension neo-seoul-theme-*.vsix",
     "clean": "rm -f *.vsix",
     "build": "npm run clean && npm run package",
     "dev": "npm run package && npm run install",
