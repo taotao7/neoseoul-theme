@@ -23,6 +23,18 @@
     "type": "git",
     "url": "https://github.com/neo-seoul/neo-seoul-theme.git"
   },
+  "icon": "icon.jpeg",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "install": "code --install-extension neo-seoul-theme-0.0.1.vsix",
+    "clean": "rm -f *.vsix",
+    "build": "npm run clean && npm run package",
+    "dev": "npm run package && npm run install",
+    "version:patch": "npm version patch && npm run build",
+    "version:minor": "npm version minor && npm run build",
+    "version:major": "npm version major && npm run build"
+  },
   "contributes": {
     "themes": [
       {
