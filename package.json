@@ -3,12 +3,26 @@
   "displayName": "Neo Seoul Theme",
   "description": "A low-contrast dark and light theme inspired by Seoul256 vim color scheme",
   "version": "0.0.1",
+  "publisher": "neo-seoul",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.101.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "seoul256",
+    "low-contrast",
+    "color-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neo-seoul/neo-seoul-theme.git"
+  },
   "contributes": {
     "themes": [
       {
