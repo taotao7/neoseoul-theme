@@ -2,7 +2,7 @@
   "name": "neo-seoul-theme",
   "displayName": "Neo Seoul Theme",
   "description": "A low-contrast dark and light theme inspired by Seoul256 vim color scheme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "taotao7",
   "license": "MIT",
   "engines": {
